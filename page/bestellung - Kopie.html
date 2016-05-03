@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Bestellung</title>
+<script language="javascript" type="text/javascript" src="pizzaScript.js"></script>
+<link rel="stylesheet" type="text/css" href="pizzaStyle.css">
+</head>
+
+<body>
+<div class="outterBurder">
+
+<div class="header">
+  <h1>Bestellung</h1>
+</div>
+
+<div class="leftEntry">
+  <div class="orderBorder">
+<div class="foodList">
+  <div class="foodImage">
+    <img src="pizza.jpg" alt="pizza" width = "60" height = "60">
+    </div>
+    <p class="order"></p>
+    <p class="price"> 4,00 &euro; </p>
+</div>
+<div class="clear"> </div>
+</div>
+
+  <div class="orderBorder">
+<div class="foodList">
+  <div class="foodImage">
+    <img src="pizza.jpg" alt="pizza" width = "60" height = "60">
+    </div>
+    <p class="order"> Salami </p>
+    <p class="price"> 4,50 &euro; </p>
+</div>
+<div class="clear"> </div>
+</div>
+
+<div class="orderBorder">
+<div class="foodList">
+  <div class="foodImage">
+    <img src="pizza.jpg" alt="pizza" width = "60" height = "60">
+    </div>
+    <p class="order"> Hawaii </p>
+    <p class="price"> 5,50 &euro; </p>
+</div>
+<div class="clear"> </div>
+</div>
+</div>
+<div class="rightEntry">
+    <div id="outter">
+    <div class="foodList">
+<select class="selBox" size="10" name="test" multiple>
+  <option value="test"> test </option>
+ </select>
+</div>
+<form action="action_page.php" method="get">
+  <p class="action"> 0 &euro; </p>
+  <input class="text" type="text" name="optional">
+  <br>
+  <input type="button" value="Alle Loeschen">
+  <br>
+  <input type="button" value="Auswahl Loeschen">
+  <input type="submit" value="Bestellen">
+</form>
+</div> </div>
+<div class="clear"> </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,127 @@
+h1 {
+    background-color: #d0e4fe;
+    border-style: double;
+    border-width: 2px;
+    border-color: grey;
+    font-size: 40px;
+}
+h2 {
+    background-color: #d0e4fe;
+    font-size: 30px;
+}
+p, h1, h2 {
+    font-family:"Palatino Linotype", Palatino, serif;
+    color: black;
+}
+a:link {
+    /* unvisited link */
+    color: red;
+}
+a:visited {
+    /* visited link */
+    color: green;
+}
+a:hover {
+    /* mouse over link */
+    color: hotpink;
+}
+a:active {
+    /* selected link */
+    color: blue;
+}
+div.button {
+    background-color: #d0e4fe;
+    border-style: double;
+    border-width: 2px;
+    border-color: grey;
+    color: grey;
+    text-align: center;
+    padding: 5px;
+    width: 150px;
+    float: left;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+#outter {
+    background-color: white;
+    border-width: 20px;
+    border-style: double;
+    border-color: white;
+    width: 100%;
+}
+div.clear {
+    clear: both;
+}
+div.header {
+    font-size: 40px;
+    width: 100%;
+}
+div.leftEntry {
+    border-width: 2px;
+    border-color: grey;
+    float: left;
+    width: 50%;
+}
+div.rightEntry {
+    float: right;
+    width: 50%;
+}
+div.foodList {
+    width: 100%;
+}
+#foodlist_m, #foodlist_s, #foodlist_h {
+    width:100%;
+    cursor:pointer;
+    clear:both;
+    position:relative;
+}
+#order_m, #order_s, #order_h {
+    float: left;
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 50%;
+}
+div.foodImage {
+    width:65px;
+    height:65px;
+    float: left;
+}
+#foodImageTest {
+    width:65px;
+    height:65px;
+    float: left;
+}
+#icon_p, #icon_h {
+    float: left;
+    width: 65px;
+    /*or your image's width*/
+    height: 65px;
+    /*or your image's height*/
+    margin: 0;
+    padding: 0;
+}
+div.foodImage > img {
+    left: 50%
+}
+#price_m, #price_s, #price_h {
+    float: left;
+    margin-right: 5px;
+    margin-left: 20px;
+}
+select.selBox {
+    width: 300px;
+}
+#comment {
+    width: 300px;
+}
+#action {
+    width: 300px;
+    text-align: right;
+}
+form {
+    width: 300px;
+    text-align: center;
+}
+table.fahrer {
+    width: 50%;
+}

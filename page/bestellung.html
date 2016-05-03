@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Bestellung</title>
+
+<link rel="stylesheet" type="text/css" href="pizzaStyle.css">
+</head>
+
+<body>
+    <div class="header">
+         <h1>Bestellung</h1>
+
+    </div>
+    <div class="leftEntry">
+        <div id="foodlist_m">
+            <div class="foodImage">
+                <img id="icon_p" src="http://st.depositphotos.com/1168906/1399/v/450/depositphotos_13990278-Pizza-icon.jpg">
+            </div>
+            <p id="order_m"></p>
+            <p id="price_m"></p>
+            <div class="clear"></div>
+        </div>
+        <div id="foodlist_s">
+            <div id="foodImageTest"></div>
+            <p id="order_s"></p>
+            <p id="price_s"></p>
+            <div class="clear"></div>
+        </div>
+        <div id="foodlist_h">
+            <div class="foodImage">
+                <img id="icon_h" src="http://st.depositphotos.com/1168906/1399/v/450/depositphotos_13990278-Pizza-icon.jpg">
+            </div>
+            <p id="order_h"></p>
+            <p id="price_h"></p>
+        </div>
+    </div>
+    <div class="rightEntry">
+        <form action="action_page.php" method="get" id="form_t">
+            <div class="foodList">
+            <select class="selBox" size="10" id="test" multiple></select>
+            </div>
+            <p id="action">0 &euro;</p>
+            <input id="comment" type="text" name="optional" required>
+            <br>
+            <button type="button" id="erase_all" value="erase_all">Alle Loeschen</button>
+            <br>
+            <button type="button" id="erase_selected" value="erase_selected">Auswahl loeschen</button>
+            <input type="submit" value="Bestellen">
+        </form>
+    </div>
+    <div class="clear"></div>
+
+<script language="javascript" type="text/javascript" src="pizzaScript.js">
+
+}
+
+</script>
+</body>
+</html>
